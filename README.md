@@ -24,6 +24,7 @@ Introduce some information about several directories.
 3) Test the LLVM Pass
 
     clang -emit-llvm -S -o ${TEST_FILE}.ll test_program/${TEST_FILE}.c
+    
     opt -load ${LLVM_BUILD}/lib/LLVM${LLVM_PASS}.so -${LLVM_PASS} ${TEST_FILE}.ll
 
 Notice: </br>
