@@ -1,0 +1,6 @@
+MyHello: 		打印函数名
+itrBB:			遍历所有的BasicBlock
+itrInstInBB:	遍历所有的指令
+countOpcode:	统计不同操作的数量
+defuse:			def的使用者（add指令的结果被谁使用）
+useDef:			use的参数位置（add指令的参数来自那条指令）
