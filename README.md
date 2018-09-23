@@ -8,7 +8,10 @@ Introduce some information about several directories.
 
     pass_example: there are some llvm pass example, like iterate BasicBlocks
     	./info.txt: 对pass的功能进行说明
+    	
     test_program: there are some C program, which is used to
+    
+    write_ir: 用llvm架构，直接编写IR
 
     Notice: More information you can see in dir's doc file
 
