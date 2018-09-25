@@ -1,1 +1,4 @@
-进行IR的创建工作
+利用llvm生成IR，不同目录下的程序产生不同功能的IR程序
+
+build_module:
+	创建Module，并调用printf，打印出"hello world!\n"
