@@ -2,3 +2,6 @@
 
 build_module:
 	创建Module，并调用printf，打印出"hello world!\n"
+	
+build_counter:
+	打印全局变量，global_counter, 并调用printf，打印出"Counter:0\n"

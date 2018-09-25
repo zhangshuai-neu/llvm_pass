@@ -12,6 +12,7 @@ Introduce some information about several directories.
     test_program: there are some C program, which is used to
     
     write_ir: 用llvm架构，直接编写IR
+    	notice: 这些文件要放到 example 目录下
 
     Notice: More information you can see in dir's doc file
 
